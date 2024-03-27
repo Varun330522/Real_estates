@@ -58,9 +58,7 @@ export default function SearchFilters() {
         </Box>
       ))}
       <Flex flexDir='column'>
-        <Button onClick={() => setShowLocations(!showLocations)} border='1px' borderColor='gray.200' marginTop='2' >
-          Search Location
-        </Button>
+
         {showLocations && (
           <Flex flexDir='column' pos='relative' paddingTop='2'>
             <Input
